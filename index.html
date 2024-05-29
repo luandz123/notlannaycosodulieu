@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>luandzcosodulieu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 600px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        #addForm, #editForm {
+            display: none;
+            margin-top: 20px;
+        }
+        #addForm input, #editForm input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>luandzcosodulieu</h1>
+        <select id="tableDropdown">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+        <table id="dataTable">
+            <!-- Table content will be populated by JavaScript -->
+        </table>
+        <button id="addButton">Add</button>
+        <div id="addForm">
+            <!-- Add form content will be populated by JavaScript -->
+        </div>
+        <div id="editForm">
+            <!-- Edit form content will be populated by JavaScript -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
